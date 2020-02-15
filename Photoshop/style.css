@@ -168,6 +168,11 @@ html {
 		color: white;
 	}
 
+	.second-item {
+		width: 90%
+		margin:auto,
+	}
+
 	.second-item:hover {
 		background-color: #00897b;
 		color: white;
@@ -193,6 +198,7 @@ html {
 .h2 {
 	font-size: 4rem;
 	text-align: center;
+	margin: auto;
 }
 
 .section-subtitle {
@@ -234,6 +240,7 @@ html {
 
 .second {
 	background-color: #e4fdf9;
+	padding-top: 16px;
 }
 
 .second-item {
@@ -259,6 +266,11 @@ html {
 @media all and (max-width: 1150px) {
 	.nav-link {
 		display: none;
+	}
+
+	.second-item {
+		width: 90%;
+		margin:auto;
 	}
 
 	.header-btn + .header-btn {
@@ -290,4 +302,18 @@ html {
 	.first {
 		padding: 0;
 	}
+
+	.first-box, .second-box {
+		display: block;
+	}
+
+	.first-item{
+		margin: 36px auto;
+	}
+
+.gallery-main{
+	max-width: 1000px;
+	margin: auto;
+	border: 1px solid #3e64ff;
+	background-color: #b2fcff;
 }
